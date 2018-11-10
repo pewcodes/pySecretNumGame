@@ -8,7 +8,7 @@ class SecretNumberGame:
         self.randomNumber = random.randint(1,100)
 
     def getGuess(self):
-        self.guess = int(input("Your guess on the Secret Number (1-100): "))
+        self.guess = int(input("Your guess on the Secret Number (1-99): "))
 
     def getResult(self):
         if self.guess < self.randomNumber:
