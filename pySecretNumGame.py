@@ -16,12 +16,12 @@ class SecretNumberGame:
         elif self.guess > self.randomNumber:
             print ("It is lower than..", self.guess)
         else:
-            print ("B I N G O !")
+            print ("\n","B I N G O !")
     
     def gameEnded(self):
         return self.guess != self.randomNumber
 
-print ("Welcome to Guess-the-Secret-Number Game!")
+print ("Welcome to Guess-the-Secret-Number Game!","\n")
 
 num = SecretNumberGame()
 num.generateRandomNumber() # Generate random number
